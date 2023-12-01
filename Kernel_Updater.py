@@ -2,10 +2,10 @@
 import os
 
 # Variables - Changable
-KERNEL_VERSION = "4.14" # Set Kernel Version (4.4/4.14/4.19)
-KERNEL_TAG = "LA.UM.9.1.r1-14700-SMxxx0.QSSI13.0" # Set CAF Tag / Upstream Version (LA.UM.10.2.1.r1-0300-sdm660.0/v4.19.157)
-REPO_LINK = "https://github.com/builder1206/msm-4.14" # Repo link to pull/fetch/push Kernel
-BASE_BRANCH = "base" # Base branch to pick the old/device base changes from
+KERNEL_VERSION = "4.19" # Set Kernel Version (4.4/4.14/4.19)
+KERNEL_TAG = "v4.19.290" # Set CAF Tag / Upstream Version (LA.UM.10.2.1.r1-0300-sdm660.0/v4.19.157)
+REPO_LINK = "https://github.com/bibindasb/kernel_realme_rmx3371" # Repo link to pull/fetch/push Kernel
+BASE_BRANCH = "Pikachu-RUI" # Base branch to pick the old/device base changes from
 
 # Variables - Non_Changable
 QCACLD_LINK = "https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0" # Qcacld repo link
